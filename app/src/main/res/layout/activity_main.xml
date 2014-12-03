@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32be6c"
+    tools:context=".MainActivity">
+
+    <com.singlecycle.library.SwitchButton xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/clock_item_day_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cursor="@drawable/switch_circle"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background"
+        app:selectedBackground="#ffe6818c"
+        app:status="OFF"
+        app:trackWidth="140dp"
+        app:unselectedBackground="#e6e6e6" />
+
+</RelativeLayout>

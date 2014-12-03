@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwitchButton">
+
+        <attr name="cursor" format="reference" />
+        <attr name="selectedBackground" format="color" />
+        <attr name="unselectedBackground" format="color" />
+        <attr name="moveDuration" format="integer" />
+        <attr name="trackWidth" format="dimension" />
+        <attr name="trackPadding" format="dimension" />
+        <attr name="cursorTouchExpand" format="dimension" />
+        <attr name="status" format="enum">
+            <enum name="ON" value="0x00" />
+            <enum name="OFF" value="0x01" />
+        </attr>
+    </declare-styleable>
+</resources>
