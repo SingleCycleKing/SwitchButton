@@ -1,6 +1,4 @@
 #SwitchButton
-![Screenshot](https://github.com/SingleCycleKing/SwitchButton/blob/master/1.png)
-![Screenshot](https://github.com/SingleCycleKing/SwitchButton/blob/master/2.png)
 ##使用方法
   1.将library导入，修改你的工程的gradle如下:
 
